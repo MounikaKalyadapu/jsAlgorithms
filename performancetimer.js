@@ -1,5 +1,4 @@
 //Using performance
-
 function addUpTo(n){
     let total = 0;
     for(let i=0;i<=n;i++){
@@ -21,4 +20,6 @@ return result;
 const ti1 = window.performance.now();
 addUsingMath(1000000000);
 const ti2 = window.performance.now();
-console.log((ti2-ti1)/1000,"in Seconds")
+console.log((ti2-ti1)/1000,"in Seconds");
+
+
